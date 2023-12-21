@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif; /* Font family */
+    margin: 0;
+    padding: 0;
+    background-color: #e0f2e9; /* Light green background color */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .content {
+    text-align: center; /* Center-align content */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for aesthetic */
+    background-color: #d4f1db; /* Lighter green background for content */
+    box-shadow: 0 4px 6px rgba(0, 128, 0, 0.1); /* Soft shadow with a green tint */
+    width: 80%; /* Adjust width as needed */
+    max-width: 500px; /* Max width for better readability on larger screens */
+  }
+  
+  .App-header {
+    background-color: #4CAF50; /* Medium green header color */
+    color: white; /* White text color */
+    padding: 20px;
+    border-radius: 8px 8px 0 0; /* Rounded corners only on the top */
+  }
+  
+  .App-logo {
+    height: 60px; /* Adjusted size for better clarity */
+    margin-bottom: 20px; /* Spacing below the logo */
+    fill: #2E8B57; /* Darker green color for logo, assuming it's an SVG */
+  }
+  
+  .App-link {
+    color: #2E8B57; /* A shade of green for links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
